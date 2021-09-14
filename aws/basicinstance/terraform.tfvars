@@ -1,0 +1,9 @@
+name = "test"
+region = "us-east-1"
+instancetype = "t2.medium"
+ami = "ami-09e67e426f25ce0d7"
+vpc = "vpc-79857b04"
+subnet = "subnet-1224595f"
+keypair = "test-suneel"
+sshSecurityGroup = "sg-d0cb61ec"
+addlDiskSizeinGB = 20
