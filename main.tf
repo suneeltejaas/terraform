@@ -8,7 +8,7 @@ resource "aws_security_group" "botx_apis" {
 }
 
 resource "aws_instance" "app" {
-    ami                         = var.ami
+    ami                         = 'ami-09e67e426f25ce0d7'
     instance_type               = var.instancetype
     subnet_id                   = var.subnet
     associate_public_ip_address = true
